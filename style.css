@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.15;
+    margin: 72px;
+  }
+  
+  h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  h1 {
+    font-size: 16pt;
+  }
+  
+  h2 {
+    font-size: 14pt;
+  }
+  
+  h3 {
+    font-size: 12pt;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  ul {
+    margin-bottom: 1em;
+    padding-left: 2em;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+  }
+  
+  .header h1 {
+    flex: 1;
+  }
+  
+  .header p {
+    font-size: 11pt;
+    margin: 0;
+  }
+  
+  .section {
+    margin-bottom: 2em;
+  }
+  
+  .section h2 {
+    margin-top: 2em;
+  }
+  
+  .section ul {
+    list-style-type: none;
+  }
+  
+  .section li {
+    margin-bottom: 0.5em;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+  
+  .skills .it-skills {
+    float: left;
+  }
+  
+  .skills .org-skills {
+    float: right;
+  }
+  
